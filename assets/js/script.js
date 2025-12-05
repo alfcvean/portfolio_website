@@ -11,17 +11,6 @@ const elementToggleFunc = function (elem) {
 
 
 
-/* ------------------------------
-    SIDEBAR TOGGLE (MOBILE)
------------------------------- */
-const sidebar = document.querySelector("[data-sidebar]");
-const sidebarBtn = document.querySelector("[data-sidebar-btn]");
-
-sidebarBtn.addEventListener("click", function () {
-  elementToggleFunc(sidebar);
-});
-
-
 
 /* ------------------------------
     TESTIMONIAL MODAL
