@@ -30,20 +30,6 @@ Visit here: https://alfcvean.github.io/portfolio_website
 -   JavaScript
 -   GitHub Pages for hosting
 
-📁 Project Structure
-
-.
-├── assets
-│   ├── css
-│   │   └── style.css
-│   ├── js
-│   │   └── script.js
-│   ├── images
-│   └── cv
-│       └── CV_Alfriando_C_Vean.pdf
-├── index.html
-└── README.md
-
 
 🚀 Deployment
 
