@@ -321,7 +321,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 600px;
+  max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -1894,5 +1894,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+}
+
+/* --- FIX SIDEBAR FOLDING ON MOBILE --- */
+@media (max-width: 600px) {
+
+  .sidebar.active .sidebar-info_more {
+    max-height: 420px !important; /* Sesuaikan angka agar turun sampai batas email */
+  }
 
 }
