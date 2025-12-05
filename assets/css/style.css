@@ -1901,7 +1901,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 @media (max-width: 600px) {
 
   .sidebar.active .sidebar-info_more {
-    max-height: 160px !important; /* Sesuaikan angka agar turun sampai batas email */
+    max-height: 420px !important; /* Sesuaikan angka agar turun sampai batas email */
   }
 
 }
