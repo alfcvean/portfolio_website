@@ -7,7 +7,7 @@ certifications as a Data Analyst and aspiring Data Scientist.
 
 🌐 Live Website
 
-Visit here: https://alfcvean.github.io
+Visit here: https://alfcvean.github.io/portfolio_website
 
 📌 Features
 
