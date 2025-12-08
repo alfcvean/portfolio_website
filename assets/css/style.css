@@ -1883,3 +1883,28 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* --------------------------------------- */
+/* SHOW SOCIAL ICONS ALWAYS ON MOBILE     */
+/* --------------------------------------- */
+@media (max-width: 600px) {
+
+  /* Biarkan sidebar terbuka penuh */
+  .sidebar {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  /* Paksa bagian info_more agar selalu tampil */
+  .sidebar-info_more {
+    opacity: 1 !important;
+    visibility: visible !important;
+    max-height: none !important;
+  }
+
+  /* Hilangkan tombol dropdown di mobile */
+  .info_more-btn {
+    display: none !important;
+  }
+}
+
